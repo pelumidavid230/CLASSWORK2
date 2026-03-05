@@ -3,7 +3,20 @@
     padding: 0px;
     box-sizing: border-box;
 }
-*navbar{
+.navbar{
     display: flex;
     justify-content: space-around;
+    background-color: #d6d6f8;
+    align-items: center;
+}.nav-links{
+    background-color: rgb(202, 245, 231);
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-section li{
+    display: inline-block;
+}
+h2{
+    margin: 0px 400px;
 }
