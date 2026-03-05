@@ -6,17 +6,39 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    background-color: #d6d6f8;
+    background-color: blue;
     align-items: center;
 }.nav-links{
-    background-color: rgb(202, 245, 231);
+    padding: 10px 0px;
+    margin-right: 10px;
 }
 .nav-links li{
     display: inline-block;
+    padding: 0px 10px;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 20px;
 }
 .nav-section li{
     display: inline-block;
 }
+.nav-section li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border: solid 2px;
+    border-radius: 15px;
+}
+.nav-section li a:hover{
+    background-color: rgb(185, 185, 248);
+    color: black;
+}
 h2{
-    margin: 0px 400px;
+    margin: 0px 0px;
+    background-color: brown;
+    color: white;
+    text-align: center;
 }
